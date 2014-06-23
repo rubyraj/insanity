@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.456 sec <<< FAILURE!
+testJavaJunit4Webdriver(organized.chaos.insanity.JavaJunit4WebdriverTest)  Time elapsed: 17.783 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'Raj-Aakula-MacBook-Pro.local', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.5', java.version: '1.6.0_65'
+Session ID: c7af53c2-9845-004b-9349-f63df5d6f6fe
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=30.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:34)
+	at org.openqa.selenium.remote.RemoteMouse.click(RemoteMouse.java:58)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:33)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:31)
+	at pageObjects.BasePage.logout(BasePage.java:25)
+	at organized.chaos.insanity.JavaJunit4WebdriverTest.testJavaJunit4Webdriver(JavaJunit4WebdriverTest.java:61)
+
